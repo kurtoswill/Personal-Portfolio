@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState } from "react";
 
@@ -15,7 +16,13 @@ const Navbar = () => {
     <nav className="w-full flex items-center justify-between py-4 px-8 bg-background">
       {/* Logo */}
       <div>
-        <div className="w-12 h-12 rounded-full bg-background shadow-lg" />
+        <div className="w-12 h-12 rounded-full bg-background shadow-lg">
+          {/* <img
+            src=""
+            alt="Logo"
+            className="w-full h-full object-cover rounded-full"
+          />  */}
+        </div>
       </div>
       {/* Navigation Links */}
       <ul className="flex gap-8 text-lg font-medium items-center text-black">
